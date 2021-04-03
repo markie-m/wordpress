@@ -9,3 +9,12 @@ Version:      2.0
 Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain:  skillcrushstarter-child
 */
+
+body {
+    border-top: 7px solid #45ac9d;
+}
+ /* SIDEBAR STYLES  */
+#sidebar .widget_search input[type="submit"] {
+    width: 18%;
+    background: url('../skillcrushstarter/img/white-arrow-right.png') no-repeat center #45ac9d; 
+}
