@@ -28,5 +28,6 @@ body {
 	color: #fff;
 }
 .home a.btn:hover {
-    background-color: #3b3b3b;
+    color: #3b3b3b;
+    box-shadow: 2px 2px 2px #3b3b3b;
 }
