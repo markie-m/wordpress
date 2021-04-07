@@ -29,5 +29,5 @@ body {
 }
 .home a.btn:hover {
     color: #3b3b3b;
-    box-shadow: 2px 2px 2px #3b3b3b;
+    box-shadow: inset 2px 2px 5px #3b3b3b;
 }
