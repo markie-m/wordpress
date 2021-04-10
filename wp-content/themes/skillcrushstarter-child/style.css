@@ -29,4 +29,5 @@ body {
 }
 .home a.btn:hover {
     box-shadow: 2px 2px 5px #3b3b3b;
+    font-size: 1.2em;
 }
