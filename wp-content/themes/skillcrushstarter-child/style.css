@@ -50,6 +50,10 @@ body {
 /* SIDEBAR STYLES  */
 #sidebar .widget_search input[type="submit"] {
     width: 18%;
+    border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-left: none;
     background: url('../skillcrushstarter/img/white-arrow-right.png') no-repeat center #10826E; 
 }
 #sidebar .widget_categories h2,
@@ -79,10 +83,12 @@ body {
 }
 .comment-form input {
 	text-indent: 0em;
-	border: 1px solid transparent;
+	border: 1px solid #BFBFBF;
 }
 .comments-area .comment-form input[type="submit"] {
 	background: #10826E;
+    border-radius: 2.5px;
+    border: 1px solid transparent;
 }
 
 /* PAGE STYLES*/
