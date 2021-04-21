@@ -10,21 +10,25 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  skillcrushstarter-child
 */
 
+/* Original accent color: #45ac9d; */
+/* MY chosen brand color: #10826E */
+
 /* BODY STYLES */
 body {
-    border-top: 7px solid #45ac9d;
+    border-top: 7px solid #10826E;
 }
 
 /* SIDEBAR STYLES  */
 #sidebar .widget_search input[type="submit"] {
     width: 18%;
-    background: url('../skillcrushstarter/img/white-arrow-right.png') no-repeat center #45ac9d; 
+    background: url('../skillcrushstarter/img/white-arrow-right.png') no-repeat center #10826E; 
 }
 
 /* HOMEPAGE STYLES */
 .home .btn {
     border-radius: 2.5px;
-	background: #45ac9d;
+	/* background: #00E0A3; */
+    background-color: #10826E;
 	color: #fff;
 }
 .home a.btn:hover {
