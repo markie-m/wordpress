@@ -10,18 +10,91 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  skillcrushstarter-child
 */
 
-/* Original accent color: #45ac9d; */
+/* Original accent color: #10826E; */
 /* MY chosen brand color: #10826E */
 
 /* BODY STYLES */
 body {
     border-top: 7px solid #10826E;
 }
+.page-header .top-logo .title {
+	color: #10826E;
+}
+.page-header .top-nav ul li:hover > a{
+	border-bottom: 1px solid #10826E;
+}
+
+/* BLOG STYLES */
+.entry-title a:hover {
+	color: #10826E;
+}
+.entry-time {
+	color: #10826E;
+}
+.category .page-title span {
+	color: #10826E;
+}
+.entry-summary a {
+	color: #10826E;
+}
+.post-entry .read-more a{
+	color: #10826E;
+}
+.post-entry .read-more a:hover {
+	border-bottom: 1px solid #10826E;
+}
+.entry-footer .entry-terms a:hover {
+	border-bottom: 1px solid #10826E;
+}
 
 /* SIDEBAR STYLES  */
 #sidebar .widget_search input[type="submit"] {
     width: 18%;
     background: url('../skillcrushstarter/img/white-arrow-right.png') no-repeat center #10826E; 
+}
+#sidebar .widget_categories h2,
+#sidebar .widget_archive h2 {
+	color: #10826E;
+}
+
+/* NEXT/PREV STYLES */
+#navigation .left a,
+#navigation .right a {
+	color: #10826E;
+}
+
+/* SINGLE POST STYLES */
+.comment-list .comment a {
+	color: #10826E;
+	text-decoration: none;
+}
+.comments-area .comment-reply-title {
+	color: #10826E;
+}
+.comments-area .comment-reply-title a {
+	color: #10826E;
+}
+.comments-area .comment-form p a {
+	color: #10826E;
+}
+.comment-form input {
+	text-indent: 0em;
+	border: 1px solid transparent;
+}
+.comments-area .comment-form input[type="submit"] {
+	background: #10826E;
+}
+
+/* PAGE STYLES*/
+.page .entry-title {
+    border-bottom: 0.07em solid #10826E;
+}
+
+/* PAGE STYLES and CUSTOM TEMPLATE STYLES*/
+.page .entry-title {
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 0.07em solid #10826E;
 }
 
 /* HOMEPAGE STYLES */
